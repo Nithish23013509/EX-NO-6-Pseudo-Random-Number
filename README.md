@@ -27,7 +27,7 @@ scanf("%d", &max);
 srand(time(NULL));
 printf("Pseudorandom numbers:\n");
 for (int i = 0; i < count; i++)
-{
+{ 
 int random_number = (rand() % (max - min + 1)) + min;
 printf("%d\n", random_number);
 }
